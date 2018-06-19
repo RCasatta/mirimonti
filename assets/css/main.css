@@ -4258,7 +4258,7 @@ cite {
 .post_content {
   width: 960px;
   max-width: 90%;
-  margin: 7rem auto 7rem;
+  margin: 4rem auto 4rem;
 }
 
 .post {
@@ -4910,4 +4910,21 @@ cite {
     padding: 0.8rem;
     font-size: 1.2rem;
   }
+}
+
+.image_left {
+  float: left;
+  padding: 8px 8px 0px 0px;
+}
+
+.image_right {
+  float: right;
+  padding: 0px 0px 8px 8px;
+}
+
+.image_inline {
+  max-height: 113px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin: 4px;
 }
