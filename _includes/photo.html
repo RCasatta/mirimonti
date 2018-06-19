@@ -1,5 +1,9 @@
+{% assign testo = include.content | replace: '_', ' ' | replace: '.jpg', '' %}
+
 <a href="/assets/img/{{ page.img_dir }}/{{ include.content }}">
   <img width="150px"
       src="/assets/img/{{ page.img_dir }}/thumb/{{ include.content }}"
-      class="image_{{ include.position }}" />
+      class="image_{{ include.position }}"
+      alt="{{ testo }}"
+      title="{{ testo }}" />
 </a>
