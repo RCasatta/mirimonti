@@ -3865,7 +3865,7 @@ p {
 blockquote {
   font-size: 1.2rem;
   font-style: italic;
-  border-left: 3px solid #c25b6c;
+  border-left: 3px solid #2fb170;
   padding-left: 2rem;
   margin: 0 0 1.75rem;
   color: #333333;
@@ -3899,11 +3899,6 @@ cite {
   width: 1440px;
   max-width: 90%;
   margin: 0 auto;
-}
-
-.flex-row {
-  display: flex;
-  flex-wrap: wrap;
 }
 
 .button_back {
@@ -3957,7 +3952,7 @@ cite {
 }
 
 .main_header .logo span {
-  color: #c0334a;
+  color: #2fb170;
   font-weight: 400;
 }
 
@@ -3999,6 +3994,7 @@ cite {
 
 .chapters .chapter {
   position: relative;
+  float: left;
   width: 32.333%;
   margin: 0 0.5% 1% 0.5%;
   overflow: hidden;
@@ -4046,7 +4042,7 @@ cite {
   display: block;
   width: 40px;
   margin-top: 0.3rem;
-  border-top: 3px solid #c25b6c;
+  border-top: 3px solid #2fb170;
 }
 
 .chapters .chapter_inner .chapter_title {
@@ -4102,7 +4098,7 @@ cite {
   font-size: 0.9rem;
   text-align: center;
   text-transform: uppercase;
-  background-color: #c0334a;
+  background-color: #2fb170;
   cursor: pointer;
   -webkit-border-radius: 2.5rem;
           border-radius: 2.5rem;
@@ -4116,11 +4112,11 @@ cite {
 }
 
 .newsletter form .subscribe_btn:hover {
-  background-color: rgba(192, 51, 74, 0.75);
+  background-color: rgba(47, 177, 112, 0.75);
 }
 
 .newsletter form .subscribe_btn:active {
-  background-color: rgba(192, 51, 74, 0.5);
+  background-color: rgba(47, 177, 112, 0.5);
 }
 
 .pagination {
@@ -4180,7 +4176,7 @@ cite {
 
 .top:hover {
   color: #ffffff;
-  background-color: #c0334a;
+  background-color: #2fb170;
   opacity: .8;
 }
 
@@ -4226,7 +4222,7 @@ cite {
 }
 
 .social_footer a:hover {
-  background-color: #c0334a;
+  background-color: #2fb170;
   color: #ffffff;
 }
 
@@ -4244,13 +4240,13 @@ cite {
 
 .copyright a {
   text-decoration: none;
-  color: #c0334a;
+  color: #2fb170;
   -webkit-transition: all .35s ease-in-out;
   transition: all .35s ease-in-out;
 }
 
 .copyright a:hover {
-  color: rgba(192, 51, 74, 0.75);
+  color: rgba(47, 177, 112, 0.75);
 }
 
 .post_wrapper, .entry_content {
@@ -4295,14 +4291,14 @@ cite {
   font-size: 1.1rem;
   margin: 0;
   color: #ffffff;
-  background-color: rgba(210, 84, 105, 0.4);
+  background-color: rgba(47, 177, 112, 0.4);
 }
 
 .post header .post_title {
   padding: 1rem;
   font-size: 2rem;
   margin: 0;
-  background-color: rgba(192, 51, 74, 0.4);
+  background-color: rgba(47, 177, 112, 0.4);
   color: #ffffff;
 }
 
@@ -4335,7 +4331,7 @@ cite {
 }
 
 .post_footer a:hover {
-  background-color: #d25469;
+  background-color: #2fb170;
   color: #ffffff;
 }
 
@@ -4487,18 +4483,18 @@ cite {
 #tags .tags li {
   float: left;
   margin: 0 0.5rem 0.5rem 0;
-  border: 1px solid #c0334a;
+  border: 1px solid #2fb170;
   -webkit-border-radius: 0.5rem;
           border-radius: 0.5rem;
-  background-color: #d25469;
-  -webkit-box-shadow: 0 2px 0 #c0334a;
-          box-shadow: 0 2px 0 #c0334a;
+  background-color: #2fb170;
+  -webkit-box-shadow: 0 2px 0 #2fb170;
+          box-shadow: 0 2px 0 #2fb170;
   -webkit-transition: all .35s;
   transition: all .35s;
 }
 
 #tags .tags li:hover {
-  background-color: rgba(192, 51, 74, 0.75);
+  background-color: rgba(47, 177, 112, 0.75);
 }
 
 #tags .tags a {
@@ -4515,11 +4511,11 @@ cite {
 }
 
 #tags .tag_list a {
-  color: #c0334a;
+  color: #2fb170;
 }
 
 #tags .tag_list a:hover {
-  color: rgba(192, 51, 74, 0.75);
+  color: rgba(47, 177, 112, 0.75);
 }
 
 #tags .back_to_home {
@@ -4598,7 +4594,7 @@ cite {
 }
 
 .about .about_social .social_footer a:hover {
-  color: #c0334a;
+  color: #2fb170;
 }
 
 .contact {
