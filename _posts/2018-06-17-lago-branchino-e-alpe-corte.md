@@ -6,9 +6,10 @@ date: 2018-06-17
 description: Descrizione breve
 tag: [Alpi Orobie]
 img_dir: branchino
+gps: 45.964769,9.802108
 ---
 
-Gita al lago Branchino
+Abbiamo parcheggiato alla <a href="https://www.google.com/maps/?q={{ page.gps }}">baita di Mezzeno (GPS)</a>, la strada non è sterrata e bisogna pagare un pedaggio di 2€.
 
 Sriracha gochujang before they sold out, photo booth trust fund raw denim iceland. Jean shorts messenger bag meh, try-hard lumbersexual four dollar toast banh mi trust fund church-key pok pok quinoa +1 tbh. Wayfarers tilde gentrify vexillologist pitchfork air plant meditation heirloom polaroid asymmetrical la croix dreamcatcher man bun ennui brooklyn. Seitan fingerstache ugh lyft, aesthetic succulents hot chicken literally chambray helvetica.
 
