@@ -4276,6 +4276,8 @@ cite {
   width: 100%;
   max-height: 500px;
   vertical-align: middle;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .post header .post_description {
