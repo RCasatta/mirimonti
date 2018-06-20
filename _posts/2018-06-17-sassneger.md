@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Gamma1"
-img: In_vetta_Pizzo_d'Erna.jpg
+title: "Sass Neger"
+img: Panorama_meraviglioso.jpg
 date: 2018-06-17
 description: Descrizione breve
-tag: [Alpi Orobie]
-img_dir: gamma1
+tag: [Alpi Orobie, Climbing]
+img_dir: sass_neger
 gps: 45.964769,9.802108
 ---
 

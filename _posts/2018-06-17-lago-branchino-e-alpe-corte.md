@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Lago Branchino e Alpe Corte"
-img: Lago_Branchino.jpg # Add image post (optional)
+img: Lago_Branchino.jpg
 date: 2018-06-17
 description: Descrizione breve
 tag: [Alpi Orobie]

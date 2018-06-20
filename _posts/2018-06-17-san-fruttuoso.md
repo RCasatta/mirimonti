@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Gamma1"
-img: In_vetta_Pizzo_d'Erna.jpg
+title: "San Fruttuoso"
+img: Abbazia_San_Fruttuoso.jpg
 date: 2018-06-17
 description: Descrizione breve
 tag: [Alpi Orobie]
-img_dir: gamma1
+img_dir: san_fruttuoso
 gps: 45.964769,9.802108
 ---
 

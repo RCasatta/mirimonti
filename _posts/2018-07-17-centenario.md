@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Centenario"
-img: Fine_ferrata_Centenario.jpg # Add image post (optional)
+img: Fine_ferrata_Centenario.jpg
 date: 2018-06-17
 description: Descrizione breve
 tag: [Alpi Orobie]
