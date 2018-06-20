@@ -4925,7 +4925,7 @@ cite {
 }
 
 .image_inline {
-  max-height: 113px;
+  max-height: 165px;
   -o-object-fit: cover;
      object-fit: cover;
   margin: 4px;
