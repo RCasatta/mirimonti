@@ -13,7 +13,9 @@ parking:
 
 {% include parking_map.html %}
 
-Una delle ferrate che più spesso si sentono nominare. qui trovate il link con tutte le indicazioni necessarie: https://www.vieferrate.it/pag-relazioni/lombardia/63-prealpi-lombarde/64-centenario-resegone.html
+Una delle ferrate che più spesso si sentono nominare.
+
+Per fare questa gita abbiamo seguito [queste indicazioni](https://www.vieferrate.it/pag-relazioni/lombardia/63-prealpi-lombarde/64-centenario-resegone.html) e le abbiamo trovate accurate. 
 
 {% include photo.html content="Verso_ferrata_Centenario.jpg" position="left" %}
 Molto suggestiva la parete a strapiombo, la ferrata inizia sulla sinistra, si possono notare infatti persone sul percorso.
