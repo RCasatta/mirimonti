@@ -7,8 +7,8 @@ description: Descrizione breve
 tag: [Liguria]
 img_dir: san_fruttuoso
 parking:
-  lat: 44.332255
-  lng: 9.1565103
+  lat: 44.332746
+  lng: 9.165473
 ---
 
 Parcheggiare in Liguria è spesso un incubo, passa quasi la voglia di visitare questa splendida regione. Dopo aver inutilmente girato Camogli senza trovare parcheggio, neanche per una bicicletta, abbiamo iniziato a cercare più lontano. Fortunatamente abbiamo trovato un posto qui:
