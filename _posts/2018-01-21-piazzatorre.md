@@ -2,9 +2,9 @@
 layout: post
 title: "Piazzatorre"
 img: Panorama_Piazzatorre.jpg
-date: 2018-06-17
+date: 2018-01-21
 description: Descrizione breve
-tag: [Alpi Orobie]
+tag: [Alpi Orobie, Bergamo]
 img_dir: piazzatorre
 gps_parking:
 ---
