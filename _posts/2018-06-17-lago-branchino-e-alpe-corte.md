@@ -11,12 +11,9 @@ parking:
   lng: 9.800096
 ---
 
+{% include parking_map.html %}
 
-## Parcheggio
-
-{% include map.html %}
-
-Abbiamo parcheggiato alla <a href="https://www.google.com/maps/?q={{ page.parking.lat }},{{ page.parking.lng }}">baita di Mezzeno (GPS)</a>, la strada non è sterrata e bisogna pagare un pedaggio di 2€.
+Abbiamo parcheggiato alla baita di Mezzeno, la strada non è sterrata e bisogna pagare un pedaggio di 2€.
 
 Si imbocca il sentiero 218 verso il Lago Branchino.
 

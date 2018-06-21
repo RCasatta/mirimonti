@@ -9,11 +9,17 @@ var map = new google.maps.Map(
   document.getElementById('map'), {
     zoom: 13,
     center: parking,
-    fullscreenControl: false
+    fullscreenControl: false,
+    mapTypeId: 'terrain'
   });
   var marker = new google.maps.Marker({
     position: parking,
-    map: map
+    map: map,
+    label: "🅿",
   });
+  var infowindow = new google.maps.InfoWindow({
+          content: '<a href="https://www.google.com/maps/?q={{ page.parking.lat }},{{ page.parking.lng }}">Indicazioni stradali per il parcheggio</a>'
+  });
+  infowindow.open(map,marker);
 }
 </script>
