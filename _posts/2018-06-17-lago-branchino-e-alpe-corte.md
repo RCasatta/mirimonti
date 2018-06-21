@@ -6,10 +6,17 @@ date: 2018-06-17
 description: Descrizione breve
 tag: [Alpi Orobie]
 img_dir: branchino
-gps: 45.964769,9.802108
+parking:
+  lat: 45.964817
+  lng: 9.800096
 ---
 
-Abbiamo parcheggiato alla <a href="https://www.google.com/maps/?q={{ page.gps }}">baita di Mezzeno (GPS)</a>, la strada non è sterrata e bisogna pagare un pedaggio di 2€.
+
+## Parcheggio
+
+{% include map.html %}
+
+Abbiamo parcheggiato alla <a href="https://www.google.com/maps/?q={{ page.parking.lat }},{{ page.parking.lng }}">baita di Mezzeno (GPS)</a>, la strada non è sterrata e bisogna pagare un pedaggio di 2€.
 
 Si imbocca il sentiero 218 verso il Lago Branchino.
 

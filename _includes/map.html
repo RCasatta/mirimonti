@@ -1,0 +1,19 @@
+<div id="map" style="height: 300px; width: 100%; margin-bottom: 30px"></div>
+<script>
+function initMap() {
+var parking = {
+  lat: {{ page.parking.lat }},
+  lng: {{ page.parking.lng }}
+};
+var map = new google.maps.Map(
+  document.getElementById('map'), {
+    zoom: 13,
+    center: parking,
+    fullscreenControl: false
+  });
+  var marker = new google.maps.Marker({
+    position: parking,
+    map: map
+  });
+}
+</script>
