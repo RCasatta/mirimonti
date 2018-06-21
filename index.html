@@ -10,7 +10,26 @@ layout: main
       {% endif %}
 
     <div class="chapter_inner">
-      <p class="chapter_number">{{post.date | date: '%Y, %b %d'}}</p>
+      <p class="chapter_number">
+        <!-- Whitespace added for readability -->
+        {% assign m = post.date | date: "%-m" %}
+        {{ post.date | date: "%-d" }}
+        {% case m %}
+          {% when '1' %}Gennaio
+          {% when '2' %}Febbraio
+          {% when '3' %}Marzo
+          {% when '4' %}Aprile
+          {% when '5' %}Maggio
+          {% when '6' %}Giugno
+          {% when '7' %}Luglio
+          {% when '8' %}Agosto
+          {% when '9' %}Settembre
+          {% when '10' %}Ottobre
+          {% when '11' %}Novembre
+          {% when '12' %}Dicembre
+        {% endcase %}
+        {{ post.date | date: "%Y" }}
+      </p>
       <h3 class="chapter_title">{{post.title}}</h3>
     </div>
     </a>
