@@ -4,7 +4,7 @@ title: "Giorda Monte"
 img: Sacra_di_San_Michele.jpg
 date: 2018-06-17
 description: Descrizione breve
-tag: [Alpi Orobie]
+tag: [Alpi Orobie, Ferrata, Piemonte]
 img_dir: giorda_monte
 gps: 45.964769,9.802108
 ---

@@ -6,7 +6,7 @@ date: 2018-06-17
 description: Descrizione breve
 tag: [Alpi Orobie, Climbing]
 img_dir: sass_neger
-gps: 45.964769,9.802108
+gps_parking:
 ---
 <div>
 {% include photo.html content="Arrivo_in_cima.jpg" position="inline" %}

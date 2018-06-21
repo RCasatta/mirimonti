@@ -4,9 +4,9 @@ title: "Centenario"
 img: Fine_ferrata_Centenario.jpg
 date: 2018-06-17
 description: Descrizione breve
-tag: [Alpi Orobie]
+tag: [Alpi Orobie, Ferrata, Lombardia]
 img_dir: centenario
-gps: 45.964769,9.802108
+gps_parking:
 ---
 <div>
 {% include photo.html content="Climbing.jpg" position="inline" %}

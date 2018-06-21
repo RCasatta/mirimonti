@@ -6,7 +6,7 @@ date: 2018-06-17
 description: Descrizione breve
 tag: [Alpi Orobie]
 img_dir: piazzatorre
-gps: 45.964769,9.802108
+gps_parking:
 ---
 <div>
 {% include photo.html content="Bellissimi_abeti_con_neve.jpg" position="inline" %}

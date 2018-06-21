@@ -6,7 +6,7 @@ date: 2018-06-17
 description: Descrizione breve
 tag: [Alpi Orobie]
 img_dir: san_fruttuoso
-gps: 45.964769,9.802108
+gps_parking: 44.332255,9.1565103
 ---
 <div>
 {% include photo.html content="Abbazia_San_Fruttuoso.jpg" position="inline" %}
