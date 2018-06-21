@@ -2,9 +2,9 @@
 layout: post
 title: "Sass Neger"
 img: Panorama_meraviglioso.jpg
-date: 2018-06-17
+date: 2017-05-21
 description: Descrizione breve
-tag: [Alpi Orobie, Climbing]
+tag: [Alpi Orobie, Lecco, Climbing]
 img_dir: sass_neger
 gps_parking:
 ---
