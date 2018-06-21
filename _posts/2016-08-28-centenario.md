@@ -2,9 +2,9 @@
 layout: post
 title: "Centenario"
 img: Fine_ferrata_Centenario.jpg
-date: 2018-06-17
+date: 2016-08-28
 description: Descrizione breve
-tag: [Alpi Orobie, Ferrata, Lombardia]
+tag: [Prealpi Bergamasche, Lecco, Ferrata]
 img_dir: centenario
 gps_parking:
 ---
