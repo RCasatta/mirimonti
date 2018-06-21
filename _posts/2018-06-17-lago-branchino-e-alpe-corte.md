@@ -16,16 +16,12 @@ parking:
 Abbiamo parcheggiato alla baita di Mezzeno, la strada per arrivare non è sterrata e bisogna pagare un pedaggio di 2€.
 
 {% include photo.html content="Indicazioni_sentieri.jpg" position="left" %}
-
 Si imbocca il sentiero 219 verso il Lago Branchino. Dopo circa un ora si passa in prossimità del bivio in foto.
-
-<div style="clear:left;"></div><br>
+{% include photo_end.html %}
 
 {% include photo.html content="MiRi_Lago_Branchino.jpg" position="right" %}
-
 Dopo un altra oretta e circa 400 metri di dislivello si arriva al passo Branchino da dove è possibile ammirare il lago.
-
-<div style="clear:right;"></div><br>
+{% include photo_end.html %}
 
 Ci incamminiamo verso il rifugio Alpe Corte, in questo periodo sulla strada si possono trovare moltissimi fiori tra cui i botton d'oro e l'albero Maggiociondolo in fiore.
 
