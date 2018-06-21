@@ -21,7 +21,7 @@ Il parcheggio è molto comodo e permette di arrivare molto in fretta a San Rocco
 
 
 {% include photo.html content="MiRi_batterie.jpg" position="right" %}
-Dopo circa un ora scarsa si raggiungono le batterie, che vengono meglio descritte da Wikipedia...
+Dopo circa un ora scarsa si raggiungono le batterie, che vengono meglio descritte da [Wikipedia](https://it.wikipedia.org/wiki/Batteria_di_Punta_Chiappa)...
 
 > La Batteria di Punta Chiappa è il complesso difensivo della 202ª Batteria costiera del Regio Esercito, costruito verso la fine degli anni trenta sul versante occidentale della penisola di Portofino concepita come sistema antinave a protezione del levante del golfo di Genova.  <cite>- Wikipedia</cite>
 
