@@ -2,9 +2,9 @@
 layout: post
 title: "Giorda Monte"
 img: Sacra_di_San_Michele.jpg
-date: 2018-06-17
+date: 2017-07-01
 description: Descrizione breve
-tag: [Alpi Orobie, Ferrata, Piemonte]
+tag: [Alpi del Monginevro, Torino, Ferrata, Piemonte]
 img_dir: giorda_monte
 gps: 45.964769,9.802108
 ---
