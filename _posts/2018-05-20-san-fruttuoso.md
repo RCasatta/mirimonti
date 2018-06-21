@@ -2,9 +2,9 @@
 layout: post
 title: "San Fruttuoso"
 img: Abbazia_San_Fruttuoso.jpg
-date: 2018-06-17
+date: 2018-05-20
 description: Descrizione breve
-tag: [Alpi Orobie]
+tag: [Liguria]
 img_dir: san_fruttuoso
 gps_parking: 44.332255,9.1565103
 ---
