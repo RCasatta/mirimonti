@@ -4536,6 +4536,7 @@ cite {
 }
 
 .about_box {
+  margin-top: 30px;
   position: absolute;
   -webkit-border-radius: 0.5rem;
           border-radius: 0.5rem;
