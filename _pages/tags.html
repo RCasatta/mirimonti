@@ -1,14 +1,14 @@
 ---
 layout: default
-title: Tags
-permalink: /tags/
+title: Categorie
+permalink: /categorie/
 ---
 
 {% capture site_tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
 {% assign tag_words = site_tags | split:',' | sort %}
 
 <section id="tags">
-  <h1> Tags in Blog</h1>
+  <h1>Categorie</h1>
   <ul class="tags cf">
 <!--  cycles through tag list and creates header row of all tags used in site with accompanying per-tag counts...-->
   {% for item in (0..site.tags.size) %}{% unless forloop.last %}
@@ -29,6 +29,6 @@ permalink: /tags/
     {% endif %}{% endfor %}
   {% endunless %}{% endfor %}
     <div class="back_to_home">
-        <a href="{{site.baseurl}}/"><i class="fa fa-long-arrow-left" aria-hidden="true"></i> Back</a>        
+        <a href="{{site.baseurl}}/"><i class="fa fa-long-arrow-left" aria-hidden="true"></i> Indietro</a>
     </div>
 </section>
