@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "San Fruttuoso"
+title: "Da San Rocco a San Fruttuoso"
 img: Abbazia_San_Fruttuoso.jpg
 date: 2018-05-20
-description: Descrizione breve
+description: Camminata sul sentiero costiero da San Rocco a San Fruttuoso, passando dalle batterie di Punta Chiappa
 tag: [Liguria]
 img_dir: san_fruttuoso
 parking:

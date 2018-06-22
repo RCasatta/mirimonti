@@ -3,7 +3,7 @@ layout: post
 title: "Ferrata di Giorda Monte e Sacra di San Michele"
 img: Sacra_di_San_Michele.jpg
 date: 2017-07-01
-description: Descrizione breve
+description: La visita alla Sacra di San Michele raggiunta passando per la rinnovata ferrata.
 tag: [Alpi del Monginevro, Torino, Ferrata, Piemonte]
 img_dir: giorda_monte
 parking:
