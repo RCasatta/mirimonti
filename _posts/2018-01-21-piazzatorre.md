@@ -4,7 +4,7 @@ title: "Piazzatorre"
 img: Panorama_Piazzatorre.jpg
 date: 2018-01-21
 description: Descrizione breve
-tag: [Alpi Orobie, Bergamo]
+tag: [Alpi Orobie, Bergamo, Ciaspolata]
 img_dir: piazzatorre
 gps_parking:
 ---
