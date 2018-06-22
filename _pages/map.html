@@ -2,7 +2,7 @@
 title: Mappa
 permalink: /mappa/
 ---
-
+<body><html>
 <div id="map" style="height: 100%; width: 100%;"></div>
   <script >
     function initMap() {
@@ -37,4 +37,8 @@ permalink: /mappa/
   </script>
 </div>
 
-{% include javascripts.html %}
+<script async defer src="https://maps.googleapis.com/maps/api/js?key={{site.maps_key}}&callback=initMap"
+type="text/javascript"></script>
+{% include analytics.html %}
+
+</body></html>
