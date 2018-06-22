@@ -1,0 +1,40 @@
+---
+title: Mappa
+permalink: /mappa/
+---
+
+<div id="map" style="height: 100%; width: 100%;"></div>
+  <script >
+    function initMap() {
+      var center = { lat: 45.8633549, lng: 9.4281054 };
+      var map = new google.maps.Map(
+        document.getElementById('map'), {
+          zoom: 8,
+          center: center,
+          fullscreenControl: false,
+          mapTypeId: 'terrain'
+        });
+
+        {% for post in site.posts %}
+          {% if post.parking %}
+            var parking_{{ forloop.index }} = {
+              lat: {{ post.parking.lat }},
+              lng: {{ post.parking.lng }}
+            };
+            var marker_{{ forloop.index }} = new google.maps.Marker({
+              position: parking_{{ forloop.index }},
+              map: map,
+            });
+            var infowindow_{{ forloop.index }} = new google.maps.InfoWindow({
+                    content: '<a href="{{ post.url }}">{{ post.title }}</a>'
+            });
+            marker_{{ forloop.index }}.addListener('click', function() {
+                    infowindow_{{ forloop.index }}.open(map,marker_{{ forloop.index }});
+            });
+          {% endif %}
+        {% endfor %}
+    }
+  </script>
+</div>
+
+{% include javascripts.html %}
