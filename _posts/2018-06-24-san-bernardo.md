@@ -12,7 +12,14 @@ parking:
 ---
 
 Questa gita "fresca" l'abbiamo trovata [qui](https://giteinlombardia.it/escursione-monte-san-bernardo/).
-Raggiungiamo in auto l'Alpe Tedesco dove parcheggiamo.
+
+{% include photo.html content="Mappa_sentieri.jpg" position="right" %}
+Raggiungiamo in auto l'Alpe Tedesco e parcheggiamo vicino al cartello con la mappa dei sentieri.
+{% include photo_end.html %}
+
+{% include photo.html content="Primo_bivio.jpg" position="right" %}
+Siccome all'inizio non ci sono indicazioni, ricordatevi di andare a sinistra al primo bivio.
+{% include photo_end.html %}
 
 {% include parking_map.html %}
 
