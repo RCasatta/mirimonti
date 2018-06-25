@@ -11,12 +11,13 @@ parking:
   lng: 8.8399055
 ---
 
-Questa gita "fresca" l'abbiamo trovata [qui] (https://giteinlombardia.it/escursione-monte-san-bernardo/). 
-Raggiungiamo in auto l'Alpe Tedesco dove parcheggiamo. 
+Questa gita "fresca" l'abbiamo trovata [qui] (https://giteinlombardia.it/escursione-monte-san-bernardo/).
+Raggiungiamo in auto l'Alpe Tedesco dove parcheggiamo.
 
 {% include parking_map.html %}
 
 <div>
+{% include photo.html content="Mappa_sentieri.jpg" position="inline" %}
 {% include photo.html content="Cima_monte_Poncione.jpg" position="inline" %}
 {% include photo.html content="Farfalla_su_margherita.jpg" position="inline" %}
 {% include photo.html content="Indicazione_Alpe_Tedesco.jpg" position="inline" %}
