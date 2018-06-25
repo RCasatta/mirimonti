@@ -11,7 +11,7 @@ parking:
   lng: 8.8399055
 ---
 
-Questa gita "fresca" l'abbiamo trovata [qui] (https://giteinlombardia.it/escursione-monte-san-bernardo/).
+Questa gita "fresca" l'abbiamo trovata [qui](https://giteinlombardia.it/escursione-monte-san-bernardo/).
 Raggiungiamo in auto l'Alpe Tedesco dove parcheggiamo.
 
 {% include parking_map.html %}
