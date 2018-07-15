@@ -17,17 +17,17 @@ Questa gita "fresca" l'abbiamo trovata [qui](https://giteinlombardia.it/escursio
 Raggiungiamo in auto l'Alpe Tedesco e parcheggiamo vicino al cartello con la mappa dei sentieri.
 {% include photo_end.html %}
 
-{% include photo.html content="Primo_bivio.jpg" position="right" %}
+{% include photo.html content="Primo_bivio.jpg" position="left" %}
 Siccome all'inizio non ci sono indicazioni, ricordatevi di andare a sinistra al primo bivio.
 {% include photo_end.html %}
 
-{% include photo.html content="Cima_monte_Poncione.jpg" position="left" %}
+{% include photo.html content="Cima_monte_Poncione.jpg" position="right" %}
 Arrivati vicino ad una panchina troviamo le indicazioni per Poncione di Ganna. La salita è un po' faticosa, per fortuna all'ombra e ci porta alla vetta del Monte Poncione (992m) dove ci sorprende una vista molto bella sui laghi di Lugano, di Ganna e Ghirla e tante altre  cime affascinanti.
 {% include photo_end.html %}
 
 Dalla vetta del Monte Poncione proseguiamo in cresta verso il Monte Minisfreddo (1042m) la cui cima si raggiunge aiutandosi, nell’ultimo tratto, con le mani e con le funi di acciaio. ATTENZIONE: non c'è acqua lungo il percorso. 
 
-{% include photo.html content="MiRi_Lago_Lugano.jpg" position="right" %}
+{% include photo.html content="MiRi_Lago_Lugano.jpg" position="left" %}
 Continuando la nostra camminata sempre in cresta arriviamo alla vetta del Monte San Bernardo (1020m) da soli, visto che tanti viandanti si fermano in vetta del Monte Poncione. Il panorama è bellissimo, possiamo vedere il Monte Poncione, il Monte Generoso, il Lago di Lugano e tante altre cime. 
 {% include photo_end.html %}
 
