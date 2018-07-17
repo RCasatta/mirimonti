@@ -6,7 +6,6 @@ date: 2017-05-21
 description: Descrizione breve
 tag: [Alpi Orobie, Lecco, Climbing]
 img_dir: sass_neger
-gps_parking:
 ---
 <div>
 {% include photo.html content="Arrivo_in_cima.jpg" position="inline" %}
