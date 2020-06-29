@@ -2,3 +2,4 @@ _site/
 sync.sh
 node_modules/
 package-lock.json
+.jekyll-cache
