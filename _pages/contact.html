@@ -1,0 +1,41 @@
+---
+layout: default
+title: Contattaci
+permalink: /contattaci/
+---
+
+<section class="about">
+  <a href="{{site.baseurl}}/" class="button_back"><i class="fa fa-long-arrow-left" aria-hidden="true"></i> Indietro</a>
+
+  <div class="about_box">
+    <div class="author" >
+
+        <div style="margin: 20px">
+            <h2 class="author_title">Contattaci</h2>
+            <br />
+            <form
+                    action="https://formspree.io/f/xnqlrbey"
+                    method="POST"
+            >
+                <label>
+                    <p>La tua email:</p>
+                    <input type="email" name="_replyto" style="border-style: groove;">
+                </label>
+
+                <br /><br />
+                <label>
+                    <p>Il tuo messagio:</p>
+                    <textarea name="message" rows="4" cols="50" style="border-style: groove;"></textarea>
+                </label>
+
+                <br /><br />
+                <!-- your other form fields go here -->
+                <button type="submit">Send</button>
+                <br /><br />
+            </form>
+        </div>
+    </div>
+
+  </div> <!-- End Section Author -->
+
+</section>

@@ -6,12 +6,6 @@ permalink: ':title/'
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://mirimonti" # the base hostname & protocol for your site, e.g. http://example.com
 
-# Disqus
-discus_identifier: mr-brown # add your discus identifier
-
-# Newsletter
-mailchimp: # add your MailChimp form identifier. For example - blogenjoyfreedom.us16.list-manage.com/subscribe/post?u=cd56155d76ddeeb4c0bc4d080&amp;id=7a526cd13e
-
 # Tracker
 analytics: UA-64322985-11
 
