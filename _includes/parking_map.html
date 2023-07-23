@@ -1,29 +1,21 @@
-<div id="map" style="height: 300px; width: 100%; margin-bottom: 30px"></div>
+<div id ="mapdiv" style = "width:800px; height:600px;"></div>
+<script src="{{site.baseurl}}/assets/js/OpenLayers.js"></script>
 <script>
-function initMap() {
-var parking = {
-  lat: {{ page.parking.lat }},
-  lng: {{ page.parking.lng }}
-};
-var map = new google.maps.Map(
-  document.getElementById('map'), {
-    zoom: 13,
-    center: parking,
-    fullscreenControl: false,
-    mapTypeId: 'terrain'
-  });
-  var marker = new google.maps.Marker({
-    position: parking,
-    map: map,
-    label: "🅿",
-  });
-  var infowindow = new google.maps.InfoWindow({
-          content: '<a href="https://www.google.com/maps/?q={{ page.parking.lat }},{{ page.parking.lng }}">Indicazioni stradali per il parcheggio</a>'
-  });
-  infowindow.open(map,marker);
+  map = new OpenLayers.Map("mapdiv");
+  map.addLayer(new OpenLayers.Layer.OSM());
 
-  marker.addListener('click', function() {
-          infowindow.open(map,marker);
-  });
-}
+  var lonLat = new OpenLayers.LonLat({{ page.parking.lng }}, {{ page.parking.lat }})
+        .transform(
+          new OpenLayers.Projection("EPSG:4326"), // transform from WGS 1984
+          map.getProjectionObject() // to Spherical Mercator Projection
+        );
+
+  var zoom=15;
+
+  var markers = new OpenLayers.Layer.Markers( "Markers" );
+  map.addLayer(markers);
+
+  markers.addMarker(new OpenLayers.Marker(lonLat));
+
+  map.setCenter (lonLat, zoom);
 </script>
